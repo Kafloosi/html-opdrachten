@@ -1,0 +1,16 @@
+body{
+    margin: 0%;
+}
+
+header {
+    background-color: rgb(192,248,223);
+    text-align: center;
+}
+
+img#logo {
+    width: 320px;
+}
+
+img {
+    width: 100%;
+}
