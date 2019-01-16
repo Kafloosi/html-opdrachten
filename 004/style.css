@@ -1,6 +1,21 @@
 body{
     display: inline-block;
+}
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#table{
+    width: 5%;
+    height: 25%;
+    text-align: center;
+}
+
+#navbar{
+    background-color: black;
+    font-size: 20px;
 }
 
 #loremIpsum{
