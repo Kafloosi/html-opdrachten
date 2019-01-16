@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>True Music</title>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 </head>
 <body>
@@ -11,5 +11,51 @@
             <img id="logo" src="img/truemusic-logo.svg" alt="Logo True Music instruments">
         </header>
     </div>
+    <div>
+            <nav class="navbar" id="navbarid">
+                    <a href="homepage.html">Home</a>
+                        <a href="pages/drums.html">Drums</a>
+                        <a href="pages/gitaar.html">Gitaar</a>
+                        <a href="pages/saxofoon.html">Saxofoon</a>
+                        <a href="pages/trompet.html">Trompet</a>
+                        <a href="pages/contact.html">Contact</a>
+                        <a href="javascript:void(0);" class="icon" onclick="navbarFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </nav>
+    </div>
+    <div>
+        <section id="news">
+            <h1>Nieuws</h1>
+
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+            Aenean commodo ligula eget dolor. Aenean massa. 
+            Cum sociis natoque penatibus et magnis dis parturient montes, 
+            nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
+            pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, 
+            fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
+            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. 
+            Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
+            Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
+            consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, 
+            viverra quis, feugiat a, tellus. 
+            Phasellus viverra nulla ut metus varius laoreet. 
+            Quisque rutrum. Aenean imperdiet. 
+            Etiam ultricies nisi vel augue. 
+            Curabitur ullamcorper ultricies nisi. 
+            Nam eget dui.
+        </section>
+    </div>
+
+    <script>
+function navbarFunction() {
+  var x = document.getElementById("navbarid");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+    </script>
 </body>
 </html>
