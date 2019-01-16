@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    background-color: #FFEAEA;
+}
+
+#appleimg{
+    width: 500px;
+    float: left;
+    margin-right: 5px;
+}
+
+#deskimg, #pythimg{
+    margin-top: 5px;
+}
+
+#article1{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+#article2{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+#article3{
+    float: left;
+    width: 30%
+}
